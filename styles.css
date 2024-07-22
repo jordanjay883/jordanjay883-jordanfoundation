@@ -7,6 +7,13 @@ p {
   text-align: left;
   color:#298089;
 }
-
-
+div > p {
+  background-color: #ED88B9 ;
+}
+div ~ p {
+  background-color:#D7DBD0
+}
+/* visited link */
+a:visited {
+  color:#00FF00
   
