@@ -17,10 +17,10 @@ p {
   color:#298089;
 }
 div > p {
-  background-color: #ED88B9 ;
+  background-color: #ED88B9;
 }
 div ~ p {
-  background-color:#D7DBD0
+  background-color:#D7DBD0;
 }
 /* visited link */
 a:visited {
@@ -70,3 +70,10 @@ section img {
      max-width: 1000px;
      margin-bottom: .5em;
 The purpose of this code is to have type selectors for the website.
+
+
+
+     @media only screen and (max-width: 2000px) {
+}
+@media only screen and (min-width: 0px) and (max-width: 2000px) {
+}
