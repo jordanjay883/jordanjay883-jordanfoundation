@@ -16,6 +16,14 @@ body {
   text-align: center;
 }
 
+#sflex {
+  display: flex;
+}
+
+#sgrid {
+  display: grid;
+}
+
 p {
   text-align: right;
   color: #81d117;
@@ -87,7 +95,51 @@ img {
 
 /*The purpose of this code is to have type selectors for the website.*/
 
-@media only screen and (max-width: 2000px) {}
+@media only screen and (max-width: 1600px) {
+  #sflex {
+    flex-direction: row;
+  }
 
+  .flex {
+    width: 20%;
+    float: right;
+  }
 
-@media only screen and (min-width: 0px) and (max-width: 2000px) {}
+  #sgrid {
+    grid-auto-flow: column;
+  }
+
+  .grid {
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #sflex {
+    flex-direction: column;
+  }
+
+  .flex {
+    width: 90%;
+    float: right;
+  }
+
+  #sgrid {
+    grid-auto-flow: row;
+  }
+
+  .grid 
+  margin: 15px;
+}
+
+@media only screen and (min-width:0) and (max-width: 500px) {
+  .flex {
+    width: 100%;
+    float: left;
+  }
+
+  .grid {
+   margin: 5px;
+  }
+}
+/*The purpose of this code is to have media queries to make the images be able to be scaled*/
