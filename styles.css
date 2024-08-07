@@ -9,25 +9,20 @@ body {
   border: yellow;
   background-image:
     linear-gradient(to left, red 50%, red 75%);
+  font-family: Arial, ;
+  font-size: 100%;
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
 }
 
 p {
   text-align: right;
-  color: #FF5733;
+  color: #81d117;
+  margin: 0;
+  padding: 0;
 }
 
-#paral {
-  text-align: left;
-  color: #298089;
-}
-
-div>p {
-  background-color: #ED88B9;
-}
-
-div~p {
-  background-color: #D7DBD0;
-}
 
 /* visited link */
 a:visited {
@@ -36,14 +31,15 @@ a:visited {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   overflow: hidden;
   background-color: #333;
 }
 
 li {
   float: left;
+  margin: 25px;
 }
 
 li a {
@@ -60,36 +56,33 @@ li a:hover {
 }
 
 /* the styles for the type selectors */
-body {
-  font-family: Arial, ;
-  font-size: 100%;
-  width: 50%;
-  max-width: 1000px;
-}
+
+
 
 article,
 aside,
 h1,
 h2,
 h3,
-p {
-  margin: 0;
-  padding: 0;
-}
+
+
 
 article,
 aside {
   margin-bottom: 1em;
 }
 
-p {
-  font-size: .875em;
-}
+
+
 
 img {
   width: 100%;
   max-width: 1000px;
   margin-bottom: .5em;
+}
+
+#mlb {
+  font-size: xxx-large;
 }
 
 /*The purpose of this code is to have type selectors for the website.*/
